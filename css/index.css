@@ -557,7 +557,10 @@ a {
 .footer-box {
   background: #f2f2f2;
   width: 100%;
+  height: auto;
   margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
 .footer {
   padding: 30px 0;
@@ -568,7 +571,7 @@ a {
   font-size: 16px;
   line-height: 1.8;
   color: #333;
-  margin: 0;
+  margin-bottom: 0;
 }
 .footer .list {
   display: block;
@@ -589,6 +592,8 @@ a {
   padding: 20px 30px!important;
   color: #999;
   overflow: hidden;
+  max-width: 980px;
+  margin: 0 auto;
 }
 .midden .shop {
   margin-bottom: 5px;
@@ -705,7 +710,7 @@ a {
   }
   .footer .list h3 {
     border-bottom: 1px solid #e3e3e3;
-    line-height: 40px;
+    line-height: 36px;
     font-size: 14px;
     color: #444;
   }
